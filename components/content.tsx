@@ -28,7 +28,7 @@ export function LinkItem({ link }: { link: NavItems }) {
         <div className="mt-2 line-clamp-5 text-sm text-primary">
           {link.description}
         </div>
-        <div className="mt-8 line-clamp-1 text-xs text-slate-500 dark:text-slate-400">
+        <div className="absolute bottom-6 line-clamp-1 text-xs text-slate-500 dark:text-slate-400">
           {link.url}
         </div>
       </div>
