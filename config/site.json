@@ -1,0 +1,68 @@
+{
+  "socials": [
+    {
+      "icon": "/social/github.svg",
+      "url": "https://github.com/LetTTGACO/",
+      "title": "Github",
+      "description": ""
+    },
+    {
+      "icon": "/social/email.svg",
+      "url": "mailto:me@mail.1874.cool",
+      "title": "Email",
+      "description": ""
+    },
+    {
+      "icon": "/social/wechat.svg",
+      "url": "https://mp.weixin.qq.com/s/5YvvFPkelQFvaa9Nlmi-3g",
+      "title": "WeChat",
+      "description": ""
+    }
+  ],
+  "links": [
+    {
+      "title": "UI/UX",
+      "icon": "https://cos.codefe.top/images/ui-ux-icon.png",
+      "links": [
+        {
+          "icon": "https://image.1874.cool/1874/202312032114598.png",
+          "url": "https://blog.1874.cool",
+          "title": "Blog",
+          "description": "An independent blog where you can find out what kind of person I am, what I'm thinking and what I'm doing. Not much reprint articles, original blog content is mostly technical sharing, stepping pit record."
+        },
+        {
+          "icon": "https://image.1874.cool/1874/202312032114600.ico",
+          "url": "https://elog.1874.cool/",
+          "title": "Elog",
+          "description": "Open cross-platform blogging solution. Combine writing platforms (YuQue/Lark/Notion/FlowUs) and blogging platforms (Hexo/Vitepress/Halo/Confluence/WordPress, etc.) as you wish."
+        },
+        {
+          "icon": "https://image.1874.cool/1874/202312032115336.ico",
+          "url": "https://webnav-1874-cool.vercel.app/",
+          "title": "WebNav",
+          "description": "A front-end navigation site designed to collect high-quality front-end related websites at home and abroad."
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "title": "Recent News",
+      "icon": "",
+      "links": [
+        {
+          "icon": "https://www.notion.so/icons/book-closed_red.svg",
+          "url": "https://1874.cool/how-do-i-take-note",
+          "title": "我的笔记管理法",
+          "description": "先介绍《我的笔记管理法》的启蒙老师——Flomo 101，正因为看了这个栏目，才让我总结出属于自己的工作流程，或者说笔记管理法。专栏中推荐的《卡片笔记写作法：如何实现从阅读到写作 》这本书也让我受益匪浅，我的卡片笔记就是从这本书开始的。我的研究课题是社会理论，持续时间是30年，成本为零」——尼克拉斯·卢曼"
+        },
+        {
+          "icon": "https://www.notion.so/icons/gym_purple.svg",
+          "url": "https://1874.cool/migrate-blog-to-notion",
+          "title": "迁移博客到 Notion",
+          "description": "这是我第三次进行博客的迁移了！\n原本的博客是基于语雀 云端书写 + 语雀 webhook + 自建Node API服务 + yuqe-hexo-with-cdn + Hexo + Github Actions 持续集成部署到腾讯云COS静态网站上。\n现在是基于 Notion + NotionNext 持续集成部署到 Vercel 上。"
+        }
+      ]
+    }
+  ]
+}
