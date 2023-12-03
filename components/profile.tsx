@@ -5,13 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import Avatar from "@/public/avatar.jpg"
 
-import { NavItem } from "@/types/nav"
 import { NavItems } from "@/app/links"
-
-interface MainNavProps {
-  items?: NavItem[]
-  navItems: NavItems[]
-}
 
 export function Profile({ socials }: { socials: NavItems[] }) {
   return (
@@ -39,7 +33,7 @@ export function Profile({ socials }: { socials: NavItems[] }) {
                   alt=""
                   width={24}
                   height={24}
-                  className="h-6 w-6 rounded-full leading-10"
+                  className="h-6 w-6 rounded-full fill-amber-300 leading-10"
                 />
               </div>
             </Link>

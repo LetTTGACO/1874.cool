@@ -28,7 +28,7 @@ export function LinkItem({ link }: { link: NavItems }) {
         <div className="mt-2 line-clamp-5 text-sm text-primary">
           {link.description}
         </div>
-        <div className="absolute bottom-6 mt-1 line-clamp-1 w-3/4 truncate text-xs text-slate-500 dark:text-slate-400">
+        <div className="mt-8 line-clamp-1 text-xs text-slate-500 dark:text-slate-400">
           {link.url}
         </div>
       </div>
@@ -61,7 +61,7 @@ export function PostItem({ link }: { link: NavItems }) {
         <div className="mt-2 line-clamp-3 text-sm text-primary">
           {link.description}
         </div>
-        <div className="absolute bottom-6 mt-1 line-clamp-1 w-3/4 truncate text-xs text-slate-500 dark:text-slate-400">
+        <div className="mt-8 line-clamp-1 text-xs text-slate-500 dark:text-slate-400">
           {link.url}
         </div>
       </div>
