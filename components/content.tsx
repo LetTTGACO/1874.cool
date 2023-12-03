@@ -98,7 +98,7 @@ export function Content({
                   {category.title}
                 </h1>
               </div>
-              <div className="grid grid-cols-1 gap-3 md:grid-cols-1 md:gap-6 lg:grid-cols-2">
+              <div className="grid grid-cols-1 gap-3 md:grid-cols-1 md:gap-6">
                 {category.links.map((link) => (
                   <PostItem link={link} key={link.url} />
                 ))}
