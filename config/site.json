@@ -2,7 +2,7 @@
   "socials": [
     {
       "icon": "/social/github.svg",
-      "url": "https://github.com/LetTTGACO/",
+      "url": "https://github.com/LetTTGACO",
       "title": "Github",
       "description": ""
     },
@@ -32,7 +32,7 @@
         },
         {
           "icon": "https://image.1874.cool/1874/202312032114600.ico",
-          "url": "https://elog.1874.cool/",
+          "url": "https://elog.1874.cool",
           "title": "Elog",
           "description": "Open cross-platform blogging solution. Combine writing platforms (YuQue/Lark/Notion/FlowUs) and blogging platforms (Hexo/Vitepress/Halo/Confluence/WordPress, etc.) as you wish."
         },
