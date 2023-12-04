@@ -6,7 +6,7 @@ import { CategoryWithLinks, NavItems } from "@/app/links"
 export function LinkItem({ link }: { link: NavItems }) {
   return (
     <Link href={link.url} target="_blank">
-      <div className="relative mb-6 flex min-h-[244px] min-w-0 cursor-pointer flex-col break-words rounded-3xl border border-gray-200 p-4 shadow-md transition-all hover:-translate-y-1 hover:scale-105 hover:bg-border hover:shadow-lg xl:mb-0">
+      <div className="relative mb-6 flex min-h-[224px] min-w-0 cursor-pointer flex-col break-words rounded-3xl border border-gray-200 p-4 shadow-md transition-all hover:-translate-y-1 hover:scale-105 hover:bg-border hover:shadow-lg xl:mb-0">
         <div className="flex items-center">
           <div className="mr-3 flex h-10 w-10 overflow-hidden rounded-full">
             {link.icon ? (
@@ -39,7 +39,7 @@ export function LinkItem({ link }: { link: NavItems }) {
 export function PostItem({ link }: { link: NavItems }) {
   return (
     <Link href={link.url} target="_blank">
-      <div className="relative mb-6 flex min-h-[200px] min-w-0 cursor-pointer flex-col break-words rounded-3xl border border-gray-200 p-4 shadow-md transition-all hover:-translate-y-1 hover:scale-105 hover:bg-border hover:shadow-lg xl:mb-0">
+      <div className="relative mb-6 flex min-h-[190px] min-w-0 cursor-pointer flex-col break-words rounded-3xl border border-gray-200 p-4 shadow-md transition-all hover:-translate-y-1 hover:scale-105 hover:bg-border hover:shadow-lg xl:mb-0">
         <div className="flex items-center">
           <div className="mr-3 flex h-10 w-10 overflow-hidden rounded-full">
             {link.icon ? (
@@ -98,7 +98,7 @@ export function Content({
                   {category.title}
                 </h1>
               </div>
-              <div className="grid grid-cols-1 gap-3 md:gap-6">
+              <div className="grid grid-cols-1 gap-3 md:grid-cols-1 md:gap-6 lg:grid-cols-2">
                 {category.links.map((link) => (
                   <PostItem link={link} key={link.url} />
                 ))}
