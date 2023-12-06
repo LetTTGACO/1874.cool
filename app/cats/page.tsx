@@ -2,10 +2,11 @@ import { ReactNode } from "react"
 import * as React from "react"
 import Image from "next/image"
 import Cat77 from "@/public/77.jpg"
-import CatMilkyTea from "@/public/milkytea.jpg"
 import AliPay from "@/public/alipay.jpg"
 import Avatar from "@/public/avatar.jpg"
+import CatMilkyTea from "@/public/milkytea.jpg"
 import WeChat from "@/public/wechat.jpg"
+import {SiteFooter} from "@/components/site-footer";
 
 /**
  * Cats page.
@@ -21,8 +22,6 @@ export default function CatsPage(): ReactNode {
             <Image
               src={Avatar}
               alt=""
-              width={160}
-              height={160}
               className="h-48 w-48 rounded-full max-[400px]:h-32 max-[400px]:w-32 max-[360px]:h-28 max-[360px]:w-28"
             />
             <h1 className="mt-8 break-words text-3xl font-semibold text-slate-950 dark:text-slate-50 lg:text-5xl">
@@ -46,35 +45,70 @@ export default function CatsPage(): ReactNode {
                   className="mb-6 w-full rounded-full"
                 />
               </div>
-              <div className="mt-20 grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-6 lg:grid-cols-2">
+              <div className="mt-10 grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-6 lg:grid-cols-2">
                 <div
-                  className="h-120 mb-6 w-full rounded-lg border-4"
+                  className="h-100 mb-6 w-full rounded-lg border-4"
                   style={{ borderColor: "#1CAB1A" }}
                 >
-                  <Image src={WeChat} alt="" className="p-6"  />
+                  <Image src={WeChat} alt="" className="p-6" />
                   <div
-                    className="h-[60px] text-center text-xl font-bold leading-[60px]"
+                    className="h-[40px] text-center text-xl font-bold leading-[40px]"
                     style={{ color: "white", backgroundColor: "#1fAB1A" }}
                   >
                     微信支付
                   </div>
                 </div>
                 <div
-                  className="h-120 mb-6 w-full rounded-lg border-4 text-center text-xl font-bold"
+                  className="h-100 mb-6 w-full rounded-lg border-4 text-center text-xl font-bold"
                   style={{ borderColor: "#166DFF" }}
                 >
                   <Image src={AliPay} alt="" className="p-6" />
                   <div
-                    className="h-[60px] text-center text-xl font-bold leading-[60px]"
+                    className="h-[40px] text-center text-xl font-bold leading-[40px]"
                     style={{ color: "white", backgroundColor: "#166DFF" }}
                   >
                     支付宝
                   </div>
                 </div>
+                {/*<div*/}
+                {/*  className="h-120 mb-6 w-full rounded-lg border-4 text-center text-xl font-bold"*/}
+                {/*  style={{ borderColor: "#166DFF" }}*/}
+                {/*>*/}
+                {/*  <Image src={AliPay} alt="" className="p-6" />*/}
+                {/*  <div*/}
+                {/*    className="h-[60px] text-center text-xl font-bold leading-[60px]"*/}
+                {/*    style={{ color: "white", backgroundColor: "#166DFF" }}*/}
+                {/*  >*/}
+                {/*    支付宝*/}
+                {/*  </div>*/}
+                {/*</div>*/}
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div className="mx-auto mt-10 mb-10 lg:w-full">
+        <h1 className="i18n-miao-people mt-2 w-full px-4 text-center text-5xl font-bold leading-tight text-gray-700 lg:text-6xl">
+          喂猫的朋友们
+        </h1>
+        <div className="lg:mx-300 i18n-miao-people-nums mx-auto mt-8 w-full px-4 text-center text-xl sm:px-12 lg:w-4/5">
+          YY
+          <p className="mt-3 text-center text-sm text-gray-500">
+            数据每周手动更新，当前 1 位朋友喜欢77 奶茶
+          </p>
+        </div>
+      </div>
+      <div className="w-full text-sm md:px-6">
+        <footer className="block py-4">
+          <div className="mx-auto">
+            <hr className="border-b-1 mb-4 border-gray-200" />
+            <div className="flex flex-wrap items-center justify-center md:justify-between">
+              <div className="w-full px-4 md:w-4/12">
+                <div className="mb-2 text-center md:mb-0 md:text-left"><a href="https://1874.cool" target="_blank" className="text-blueGray-500 py-1 text-center text-sm font-semibold md:text-left" rel="noreferrer">Copyright © 2023 1874</a></div>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   )
