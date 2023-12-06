@@ -106,7 +106,7 @@ export default function CatsPage(): ReactNode {
           </div>
         </div>
       </div>
-      <div className="mx-auto mt-10 mb-10 lg:w-full">
+      <div className="mx-auto my-10 lg:w-full">
         <h1 className="i18n-miao-people mt-2 w-full px-4 text-center text-5xl font-bold leading-tight text-gray-700 lg:text-6xl">
           喂猫的朋友们
         </h1>
