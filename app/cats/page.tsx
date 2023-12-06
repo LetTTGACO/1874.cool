@@ -34,21 +34,21 @@ export default function CatsPage(): ReactNode {
           </div>
           <div className="px-8 py-6 max-[400px]:px-7 max-[360px]:px-5 lg:w-[820px] lg:px-0 lg:py-12">
             <div className="mx-auto w-full px-4 md:px-6">
-              <div className="grid grid-cols-2 gap-3 md:grid-cols-2 md:gap-6 lg:grid-cols-2">
+              <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-6 lg:grid-cols-2">
                 <Image
                   src={Cat77}
                   alt=""
-                  className="mb-6 h-80 w-80 rounded-full max-[400px]:h-32 max-[400px]:w-32 max-[360px]:h-28 max-[360px]:w-28"
+                  className="mb-6 w-full rounded-full"
                 />
                 <Image
                   src={CatMilkyTea}
                   alt=""
-                  className="mb-6 h-80 w-80 rounded-full max-[400px]:h-32 max-[400px]:w-32 max-[360px]:h-28 max-[360px]:w-28"
+                  className="mb-6 w-full rounded-full"
                 />
               </div>
               <div className="mt-20 grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-6 lg:grid-cols-2">
                 <div
-                  className="h-120 mb-6 w-80 rounded-lg border-4"
+                  className="h-120 mb-6 w-full rounded-lg border-4"
                   style={{ borderColor: "#1CAB1A" }}
                 >
                   <Image src={WeChat} alt="" className="p-6"  />
@@ -60,7 +60,7 @@ export default function CatsPage(): ReactNode {
                   </div>
                 </div>
                 <div
-                  className="h-120 mb-6 w-80 rounded-lg border-4 text-center text-xl font-bold"
+                  className="h-120 mb-6 w-full rounded-lg border-4 text-center text-xl font-bold"
                   style={{ borderColor: "#166DFF" }}
                 >
                   <Image src={AliPay} alt="" className="p-6" />
