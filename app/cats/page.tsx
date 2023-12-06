@@ -1,12 +1,31 @@
 import { ReactNode } from "react"
 import * as React from "react"
+import { Metadata } from "next"
 import Image from "next/image"
 import Cat77 from "@/public/77.jpg"
 import AliPay from "@/public/alipay.jpg"
 import Avatar from "@/public/avatar.jpg"
 import CatMilkyTea from "@/public/milkytea.jpg"
 import WeChat from "@/public/wechat.jpg"
-import {SiteFooter} from "@/components/site-footer";
+
+import { siteConfig } from "@/config/site"
+
+export const metadata: Metadata = {
+  title: {
+    default: "喂猫的朋友们",
+    template: `%s - ${siteConfig.name}`,
+  },
+  description: siteConfig.description,
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: dark)", color: "black" },
+  ],
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
+}
 
 /**
  * Cats page.
@@ -104,7 +123,16 @@ export default function CatsPage(): ReactNode {
             <hr className="border-b-1 mb-4 border-gray-200" />
             <div className="flex flex-wrap items-center justify-center md:justify-between">
               <div className="w-full px-4 md:w-4/12">
-                <div className="mb-2 text-center md:mb-0 md:text-left"><a href="https://1874.cool" target="_blank" className="text-blueGray-500 py-1 text-center text-sm font-semibold md:text-left" rel="noreferrer">Copyright © 2023 1874</a></div>
+                <div className="mb-2 text-center md:mb-0 md:text-left">
+                  <a
+                    href="https://1874.cool"
+                    target="_blank"
+                    className="text-blueGray-500 py-1 text-center text-sm font-semibold md:text-left"
+                    rel="noreferrer"
+                  >
+                    Copyright © 2023 1874
+                  </a>
+                </div>
               </div>
             </div>
           </div>
