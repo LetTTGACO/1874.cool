@@ -6,7 +6,7 @@ import Link from "next/link";
 import Cat77 from "@/public/77.jpg";
 import AliPay from "@/public/alipay.jpg";
 import Avatar from "@/public/avatar.jpg";
-import CatMilkyTea from "@/public/milkytea.jpg";
+import CatMilkyTea from "@/public/奶茶.jpg";
 import WeChat from "@/public/wechat.jpg";
 import { friends } from "@/config/friends"
 import { siteConfig } from "@/config/site"

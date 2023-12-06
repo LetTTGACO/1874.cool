@@ -41,6 +41,12 @@
           "url": "https://webnav.1874.cool",
           "title": "WebNav",
           "description": "A front-end navigation site designed to collect high-quality front-end related websites at home and abroad."
+        },
+        {
+          "icon": "/77.jpg",
+          "url": "https://1874.cool/cats",
+          "title": "喂猫",
+          "description": "觉得不错？可以给我家「77 & 奶茶」买 \uD83E\uDD6B 罐头吃！"
         }
       ]
     }
