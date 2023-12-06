@@ -105,7 +105,7 @@ export default function CatsPage(): ReactNode {
         <div className="lg:mx-300 i18n-miao-people-nums mx-auto mt-8 w-full px-4 text-center text-xl sm:px-12 lg:w-4/5">
           {friends.join("、")}
           <p className="mt-3 text-center text-sm text-gray-500">
-            数据每周手动更新，当前 1 位朋友喜欢77 奶茶
+            数据每周手动更新，当前 {friends.length} 位朋友喜欢「77 & 奶茶」
           </p>
         </div>
       </div>
