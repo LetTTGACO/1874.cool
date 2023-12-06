@@ -71,7 +71,7 @@ export default function CatsPage(): ReactNode {
                 >
                   <Image src={WeChat} alt="" className="p-6" />
                   <div
-                    className="h-[40px] text-center text-xl font-bold leading-[40px]"
+                    className="h-[60px] text-center text-xl font-bold leading-[60px]"
                     style={{ color: "white", backgroundColor: "#1fAB1A" }}
                   >
                     微信支付
@@ -83,7 +83,7 @@ export default function CatsPage(): ReactNode {
                 >
                   <Image src={AliPay} alt="" className="p-6" />
                   <div
-                    className="h-[40px] text-center text-xl font-bold leading-[40px]"
+                    className="h-[60px] text-center text-xl font-bold leading-[60px]"
                     style={{ color: "white", backgroundColor: "#166DFF" }}
                   >
                     支付宝
