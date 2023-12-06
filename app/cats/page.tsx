@@ -34,7 +34,7 @@ export default function CatsPage(): ReactNode {
           </div>
           <div className="px-8 py-6 max-[400px]:px-7 max-[360px]:px-5 lg:w-[820px] lg:px-0 lg:py-12">
             <div className="mx-auto w-full px-4 md:px-6">
-              <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-6 lg:grid-cols-2">
+              <div className="grid grid-cols-2 gap-3 md:grid-cols-2 md:gap-6 lg:grid-cols-2">
                 <Image
                   src={Cat77}
                   alt=""
