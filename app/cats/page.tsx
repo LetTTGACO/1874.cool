@@ -47,7 +47,7 @@ export default function CatsPage(): ReactNode {
               1874
             </h1>
             <p className="mt-6 whitespace-pre-line text-xl font-bold text-slate-600 dark:text-gray-50 max-[400px]:mt-5 max-[360px]:mt-4">
-              觉得不错？可以给我家「77 & 奶茶」买 🥩🍤 罐头吃！
+              觉得不错？可以给我家「77 & 奶茶」买 🥫罐头吃！
             </p>
           </div>
           <div className="px-8 py-6 max-[400px]:px-7 max-[360px]:px-5 lg:w-[820px] lg:px-0 lg:py-12">
