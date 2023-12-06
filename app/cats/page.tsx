@@ -40,7 +40,7 @@ export default function CatsPage(): ReactNode {
       <div className="flex-col">
         <div className="lg:mx-auto lg:flex lg:max-w-[1600px] lg:justify-between lg:px-16">
           <div className="w-auto items-center px-8 py-12 max-[400px]:px-7 max-[360px]:px-5 lg:w-full lg:max-w-[500px] lg:px-0">
-            <Link href='/'>
+            <Link href='/' className="inline-block">
               <Image
                 src={Avatar}
                 alt=""
