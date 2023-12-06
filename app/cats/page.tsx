@@ -99,10 +99,10 @@ export default function CatsPage(): ReactNode {
         </div>
       </div>
       <div className="mx-auto my-10 lg:w-full">
-        <h1 className="i18n-miao-people mt-2 w-full px-4 text-center text-5xl font-bold leading-tight text-gray-700 lg:text-6xl">
+        <h1 className="mt-2 w-full px-4 text-center text-5xl font-bold leading-tight text-gray-700 lg:text-6xl">
           喂猫的朋友们
         </h1>
-        <div className="lg:mx-300 i18n-miao-people-nums mx-auto mt-8 w-full px-4 text-center text-xl sm:px-12 lg:w-4/5">
+        <div className="lg:mx-300 mx-auto mt-8 w-full px-4 text-center text-xl sm:px-12 lg:w-4/5">
           {friends.join("、")}
           <p className="mt-3 text-center text-sm text-gray-500">
             数据每周手动更新，当前 {friends.length} 位朋友喜欢「77 & 奶茶」
