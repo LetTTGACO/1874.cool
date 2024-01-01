@@ -34,7 +34,7 @@
           "icon": "https://image.1874.cool/1874/202312032114600.ico",
           "url": "https://elog.1874.cool",
           "title": "Elog",
-          "description": "Open cross-platform blogging solution. Combine writing platforms (YuQue/Lark/Notion/FlowUs) and blogging platforms (Hexo/Vitepress/Halo/Confluence/WordPress, etc.) as you wish."
+          "description": "开放式跨平台博客解决方案，随意组合写作平台(语雀/飞书/Notion/FlowUs)和部署平台(Hexo/VitePress/Halo/Confluence/WordPress等)"
         },
         {
           "icon": "https://image.1874.cool/1874/202312032115336.ico",
@@ -56,6 +56,12 @@
       "title": "Recent News",
       "icon": "",
       "links": [
+        {
+          "icon": "https://www.notion.so/icons/graduate_blue.svg",
+          "url": "https://blog.1874.cool/2023-year-end",
+          "title": "2023 年终总结",
+          "description": "转眼 2023 就过去了，第一次尝试写年终总结，也算是给过去的 2023 一个交代吧。特别是下半年接触了知识管理之后，体会到定期复盘带来的好处。通过回顾自己的过往，说不定能对即将到来的 2024 有所启发。"
+        },
         {
           "icon": "https://www.notion.so/icons/book-closed_red.svg",
           "url": "https://blog.1874.cool/how-do-i-take-note",
