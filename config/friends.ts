@@ -1,1 +1,1 @@
-export const friends = ["YY", "czm"]
+export const friends = ["YY", "czm", "有为却繁星"]
