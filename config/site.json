@@ -17,6 +17,12 @@
       "url": "https://mp.weixin.qq.com/s/5YvvFPkelQFvaa9Nlmi-3g",
       "title": "WeChat",
       "description": ""
+    },
+    {
+      "icon": "/social/twitter.svg",
+      "url": "https://twitter.com/LetTTGACO",
+      "title": "Twitter",
+      "description": ""
     }
   ],
   "links": [
