@@ -31,22 +31,28 @@
       "icon": "https://cos.codefe.top/images/ui-ux-icon.png",
       "links": [
         {
-          "icon": "https://image.1874.cool/1874/202312032114598.png",
+          "icon": "https://image.1874.cool/1874/202401262216538.png",
           "url": "https://blog.1874.cool",
           "title": "Blog",
           "description": "一个对已有笔记的阶段性总结的独立博客。在这里你可以了解我是什么样的人、我在想什么、我在做什么。原创博客内容多为技术分享、踩坑记录，偶尔也会写点正经文字，以写出有用且有趣的文字为己任，希望诸君能够喜欢。"
         },
         {
-          "icon": "https://image.1874.cool/1874/202312032114600.ico",
+          "icon": "https://image.1874.cool/1874/202401262216540.png",
           "url": "https://elog.1874.cool",
           "title": "Elog",
           "description": "开放式跨平台博客解决方案，随意组合写作平台(语雀/飞书/Notion/FlowUs)和部署平台(Hexo/VitePress/Halo/Confluence/WordPress等)"
         },
         {
-          "icon": "https://image.1874.cool/1874/202312032115336.ico",
+          "icon": "https://image.1874.cool/1874/202401262216541.png",
           "url": "https://webnav.1874.cool",
           "title": "WebNav",
           "description": "一个旨在汇集国内外优质前端相关网站的前端导航网站。"
+        },
+        {
+          "icon": "https://image.1874.cool/1874/202401262216539.png",
+          "url": "https://elog.1874.cool/notion/blogpal",
+          "title": "Blogpal",
+          "description": "一款浏览器插件，主要配置 Elog 使用，更方便触发 Github Actions 流水线"
         },
         {
           "icon": "/77.jpg",
