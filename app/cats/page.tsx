@@ -42,7 +42,7 @@ export default function CatsPage(): ReactNode {
           <div className="w-auto items-center px-8 py-12 max-[400px]:px-7 max-[360px]:px-5 lg:w-full lg:max-w-[500px] lg:px-0">
             <Link href='/' className="inline-block">
               <Image
-                src={Avatar}
+                src="https://image.1874.cool/1874/202401271817867.png"
                 alt=""
                 className="h-48 w-48 rounded-full max-[400px]:h-32 max-[400px]:w-32 max-[360px]:h-28 max-[360px]:w-28"
               />
