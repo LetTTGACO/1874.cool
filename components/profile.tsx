@@ -3,7 +3,6 @@
 import * as React from "react"
 import Image from "next/image"
 import Link from "next/link"
-import Avatar from "@/public/avatar.jpg"
 
 import { NavItems } from "@/app/links"
 
@@ -11,7 +10,7 @@ export function Profile({ socials }: { socials: NavItems[] }) {
   return (
     <div className=" w-auto items-center px-8 py-12 max-[400px]:px-7 max-[360px]:px-5 lg:w-full lg:max-w-[500px] lg:px-0">
       <Image
-        src={Avatar}
+        src="https://image.1874.cool/1874/202401271817867.png"
         alt=""
         width={160}
         height={160}
@@ -21,7 +20,7 @@ export function Profile({ socials }: { socials: NavItems[] }) {
         1874
       </h1>
       <p className="mt-6 whitespace-pre-line text-xl text-slate-600 dark:text-gray-50 max-[400px]:mt-5 max-[360px]:mt-4">
-        a self-taught passionate Frontend developer from China.
+        有粤语歌就不会有世界末日
       </p>
       <div className="mt-6 flex">
         {socials.map((social, index) => {
