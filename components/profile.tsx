@@ -17,7 +17,8 @@ export function Profile({ socials }: { socials: NavItems[] }) {
         className="h-48 w-48 rounded-full max-[400px]:h-32 max-[400px]:w-32 max-[360px]:h-28 max-[360px]:w-28"
       />
       <h1 className="mt-8 break-words text-3xl font-semibold text-slate-950 dark:text-slate-50 lg:text-5xl">
-        1874
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
+        1874's 开发记录笔记
       </h1>
       <p className="mt-6 whitespace-pre-line text-xl text-slate-600 dark:text-gray-50 max-[400px]:mt-5 max-[360px]:mt-4">
         有粤语歌就不会有世界末日
