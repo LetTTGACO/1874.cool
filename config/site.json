@@ -39,24 +39,5 @@
       ]
     }
   ],
-  "posts": [
-    {
-      "title": "Recent News",
-      "icon": "",
-      "links": [
-        {
-          "icon": "https://www.notion.so/icons/graduate_blue.svg",
-          "url": "https://blog.1874.cool/2023-year-end",
-          "title": "2023 年终总结",
-          "description": "转眼 2023 就过去了，第一次尝试写年终总结，也算是给过去的 2023 一个交代吧。特别是下半年接触了知识管理之后，体会到定期复盘带来的好处。通过回顾自己的过往，说不定能对即将到来的 2024 有所启发。"
-        },
-        {
-          "icon": "https://www.notion.so/icons/book-closed_red.svg",
-          "url": "https://blog.1874.cool/how-do-i-take-note",
-          "title": "我的笔记管理法",
-          "description": "先介绍《我的笔记管理法》的启蒙老师——Flomo 101，正因为看了这个栏目，才让我总结出属于自己的工作流程，或者说笔记管理法。专栏中推荐的《卡片笔记写作法：如何实现从阅读到写作 》这本书也让我受益匪浅，我的卡片笔记就是从这本书开始的。我的研究课题是社会理论，持续时间是30年，成本为零」——尼克拉斯·卢曼"
-        }
-      ]
-    }
-  ]
+  "posts": []
 }
