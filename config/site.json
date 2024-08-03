@@ -75,6 +75,18 @@
       "icon": "",
       "links": [
         {
+          "icon": "https://www.notion.so/icons/calendar-month_blue.svg",
+          "url": "https://blog.1874.cool/2024-month-02",
+          "title": "月刊（第2期）：信息就像糖，让人上瘾",
+          "description": "重要的信息大概率会不止一次出现在你面前，放心大胆的删除它。"
+        },
+        {
+          "icon": "https://www.notion.so/icons/calendar-month_red.svg",
+          "url": "https://blog.1874.cool/2024-month-01",
+          "title": "月刊（第1期）：刻意练习",
+          "description": "坚持是一份十分难得的信念，希望未来的一年可以持续「刻意练习」「不插电」，自我迭代。"
+        },
+        {
           "icon": "https://www.notion.so/icons/graduate_blue.svg",
           "url": "https://blog.1874.cool/2023-year-end",
           "title": "2023 年终总结",
