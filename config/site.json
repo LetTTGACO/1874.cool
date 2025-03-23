@@ -31,6 +31,12 @@
       "icon": "https://cos.codefe.top/images/ui-ux-icon.png",
       "links": [
         {
+          "icon": "https://image.1874.cool/1874/202503231217568.JPG",
+          "url": "https://memo.1874.run",
+          "title": "Memo",
+          "description": "Cody的百宝箱，是我的备忘录站点。不同于独立博客，它更像是我的 Flomo 网页版，主要是日常记录&技术分享"
+        },
+        {
           "icon": "https://image.1874.cool/1874/202402031641868.png",
           "url": "https://blog.1874.cool",
           "title": "Blog",
@@ -41,6 +47,12 @@
           "url": "https://elog.1874.cool",
           "title": "Elog",
           "description": "开放式跨平台博客解决方案，随意组合写作平台(语雀/飞书/Notion/FlowUs)和部署平台(Hexo/VitePress/Halo/Confluence/WordPress等)"
+        },
+        {
+          "icon": "https://image.1874.cool/1874/202503231224638.png",
+          "url": "https://hacker-news.1874.run",
+          "title": "Hacker News",
+          "description": "一个基于 AI 的 Hacker News 中文播客项目，每天自动抓取 Hacker News 热门文章，通过 AI 生成中文总结并转换为播客内容。"
         },
         {
           "icon": "https://image.1874.cool/1874/202406091553059.png",
