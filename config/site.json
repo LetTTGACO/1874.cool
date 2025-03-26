@@ -93,6 +93,18 @@
       "icon": "",
       "links": [
         {
+          "icon": "https://www.notion.so/icons/notification_blue.svg",
+          "url": "https://blog.1874.cool/esm-commonjs",
+          "title": "从多场景分析 ESM 和 CJS 混合开发",
+          "description": "从 2 个视角、12 种场景来分析和使用 ESM 和 CJS 模块。"
+        },
+        {
+          "icon": "https://www.notion.so/icons/gym_purple.svg",
+          "url": "https://blog.1874.cool/hacker-news-rss",
+          "title": "用小爱音响听 Hacker News & RSS",
+          "description": "基于 AI 的 Hacker News & Podcast，每天定时下载 AI 生成的音频在小米音响中播放。"
+        },
+        {
           "icon": "https://www.notion.so/icons/calendar-month_blue.svg",
           "url": "https://blog.1874.cool/2024-month-02",
           "title": "月刊（第2期）：信息就像糖，让人上瘾",
