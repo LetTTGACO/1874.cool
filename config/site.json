@@ -49,28 +49,16 @@
           "description": "开放式跨平台博客解决方案，随意组合写作平台(语雀/飞书/Notion/FlowUs)和部署平台(Hexo/VitePress/Halo/Confluence/WordPress等)"
         },
         {
-          "icon": "https://image.1874.cool/1874/202503231224638.png",
-          "url": "https://hacker-news.1874.run",
-          "title": "Hacker News",
-          "description": "一个基于 AI 的 Hacker News 中文播客项目，每天自动抓取 Hacker News 热门文章，通过 AI 生成中文总结并转换为播客内容。"
-        },
-        {
-          "icon": "https://image.1874.cool/1874/202503240402792.png",
-          "url": "https://podrss.1874.run",
-          "title": "Podcast RSS",
-          "description": "一个基于 AI 的 RSS 中文播客项目，每天自动抓取你感兴趣的 RSS 更新内容，通过 AI 生成中文总结并转换为播客内容。"
-        },
-        {
-          "icon": "https://image.1874.cool/1874/202406091553059.png",
-          "url": "https://coverpen.1874.cool",
+          "icon": "https://hermes-agent.nousresearch.com/favicon.ico",
+          "url": "https://github.com/LetTTGACO/hermes-agent",
           "title": "Cover Pen",
-          "description": "Creating cover images for your blogs is now super easy"
+          "description": "优化飞书消息渠道展示的 Hermes Agent"
         },
         {
-          "icon": "https://image.1874.cool/1874/202401262216541.png",
-          "url": "https://webnav.1874.cool",
-          "title": "WebNav",
-          "description": "一个旨在汇集国内外优质前端相关网站的前端导航网站。"
+          "icon": "https://image.1874.run/codex/06a9d9ad3a2c73664e8026c35900325f.png",
+          "url": "https://github.com/LetTTGACO/agent-notify",
+          "title": "Cover Pen",
+          "description": "智能提醒 OpenCode、Claude Code 和 Codex 的完成/权限通知，安心摸鱼"
         },
         {
           "icon": "https://image.1874.cool/1874/202401262216539.png",
@@ -94,39 +82,15 @@
       "links": [
         {
           "icon": "https://www.notion.so/icons/flood_purple.svg",
-          "url": "https://blog.1874.cool/homelab-domain",
-          "title": "局域网内优雅的访问家庭内网服务",
-          "description": "在局域网内使用自定义顶级域名访问内网服务，无需使用内网 IP 地址。"
+          "url": "https://blog.1874.cool/vibe-coding-mid-doc",
+          "title": "给 Vibe Coding 中间文档找一个合适的位置",
+          "description": "合理使用Git 忽略/排除功能，更方便管理本地私有文档"
         },
         {
           "icon": "https://www.notion.so/icons/notification_blue.svg",
-          "url": "https://blog.1874.cool/esm-commonjs",
-          "title": "从多场景分析 ESM 和 CJS 混合开发",
-          "description": "从 2 个视角、12 种场景来分析和使用 ESM 和 CJS 模块。"
-        },
-        {
-          "icon": "https://www.notion.so/icons/gym_purple.svg",
-          "url": "https://blog.1874.cool/hacker-news-rss",
-          "title": "用小爱音响听 Hacker News & RSS",
-          "description": "基于 AI 的 Hacker News & Podcast，每天定时下载 AI 生成的音频在小米音响中播放。"
-        },
-        {
-          "icon": "https://www.notion.so/icons/calendar-month_blue.svg",
-          "url": "https://blog.1874.cool/2024-month-02",
-          "title": "月刊（第2期）：信息就像糖，让人上瘾",
-          "description": "重要的信息大概率会不止一次出现在你面前，放心大胆的删除它。"
-        },
-        {
-          "icon": "https://www.notion.so/icons/calendar-month_red.svg",
-          "url": "https://blog.1874.cool/2024-month-01",
-          "title": "月刊（第1期）：刻意练习",
-          "description": "坚持是一份十分难得的信念，希望未来的一年可以持续「刻意练习」「不插电」，自我迭代。"
-        },
-        {
-          "icon": "https://www.notion.so/icons/graduate_blue.svg",
-          "url": "https://blog.1874.cool/2023-year-end",
-          "title": "2023 年终总结",
-          "description": "转眼 2023 就过去了，第一次尝试写年终总结，也算是给过去的 2023 一个交代吧。特别是下半年接触了知识管理之后，体会到定期复盘带来的好处。通过回顾自己的过往，说不定能对即将到来的 2024 有所启发。"
+          "url": "https://blog.1874.cool/hermes-update-fork",
+          "title": "无需打散件补丁：用 fork 接管 Hermes 更新",
+          "description": "更方便来开发和更新私人定制版的线上 Hermes Agent"
         },
         {
           "icon": "https://www.notion.so/icons/book-closed_red.svg",
