@@ -2,6 +2,9 @@
   "name": "next-template",
   "version": "0.0.2",
   "private": true,
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "next dev -p 3005",
     "build": "next build",
