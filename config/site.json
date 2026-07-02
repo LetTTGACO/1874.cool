@@ -51,13 +51,13 @@
         {
           "icon": "https://hermes-agent.nousresearch.com/favicon.ico",
           "url": "https://github.com/LetTTGACO/hermes-agent",
-          "title": "Cover Pen",
-          "description": "优化飞书消息渠道展示的 Hermes Agent"
+          "title": "飞书定制版 Hermes Agent",
+          "description": "专门针对飞书消息渠道展示优化后的 Hermes Agent"
         },
         {
           "icon": "https://image.1874.run/codex/06a9d9ad3a2c73664e8026c35900325f.png",
           "url": "https://github.com/LetTTGACO/agent-notify",
-          "title": "Cover Pen",
+          "title": "Agent-Notify",
           "description": "智能提醒 OpenCode、Claude Code 和 Codex 的完成/权限通知，安心摸鱼"
         },
         {
