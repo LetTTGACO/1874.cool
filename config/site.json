@@ -81,19 +81,25 @@
       "icon": "",
       "links": [
         {
-          "icon": "https://www.notion.so/icons/flood_purple.svg",
+          "icon": "https://www.notion.so/icons/code_orange.svg",
+          "url": "https://blog.1874.cool/stable-vibe-coding-workflow",
+          "title": "告别许愿式开发：如何用确定性的工作流对抗 AI “降智”",
+          "description": "通过确定性的工作流和规则文档，可在多轮对话中为 AI 提供足够上下文，避免模型导致的跑偏。"
+        },
+        {
+          "icon": "https://www.notion.so/icons/folder_yellow.svg",
           "url": "https://blog.1874.cool/vibe-coding-mid-doc",
           "title": "给 Vibe Coding 中间文档找一个合适的位置",
           "description": "合理使用Git 忽略/排除功能，更方便管理本地私有文档"
         },
         {
-          "icon": "https://www.notion.so/icons/notification_blue.svg",
+          "icon": "https://www.notion.so/icons/gift_orange.svg",
           "url": "https://blog.1874.cool/hermes-update-fork",
           "title": "无需打散件补丁：用 fork 接管 Hermes 更新",
           "description": "更方便来开发和更新私人定制版的线上 Hermes Agent"
         },
         {
-          "icon": "https://www.notion.so/icons/book-closed_red.svg",
+          "icon": "https://www.notion.so/icons/color-palette_gray.svg",
           "url": "https://blog.1874.cool/how-do-i-take-note",
           "title": "我的笔记管理法",
           "description": "先介绍《我的笔记管理法》的启蒙老师——Flomo 101，正因为看了这个栏目，才让我总结出属于自己的工作流程，或者说笔记管理法。专栏中推荐的《卡片笔记写作法：如何实现从阅读到写作 》这本书也让我受益匪浅，我的卡片笔记就是从这本书开始的。我的研究课题是社会理论，持续时间是30年，成本为零」——尼克拉斯·卢曼"

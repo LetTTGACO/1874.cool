@@ -11,6 +11,7 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
+    "generate:post-icons": "node scripts/generate-post-icons.mjs",
     "preview": "next build && next start",
     "typecheck": "tsc --noEmit",
     "format:write": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
