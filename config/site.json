@@ -89,7 +89,7 @@
         {
           "icon": "https://www.notion.so/icons/folder_yellow.svg",
           "url": "https://blog.1874.cool/vibe-coding-mid-doc",
-          "title": "给 Vibe Coding 中间文档找一个合适的位置",
+          "title": "既要 Vibe 还要无痕：我的本地私有文档收留方案",
           "description": "合理使用Git 忽略/排除功能，更方便管理本地私有文档"
         },
         {
