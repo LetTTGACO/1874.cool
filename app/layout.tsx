@@ -1,10 +1,11 @@
 import "@/styles/globals.css"
-import { Metadata } from "next"
+
+import type { ReactNode } from "react"
+import type { Metadata, Viewport } from "next"
+import Script from "next/script"
 
 import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
-import { cn } from "@/lib/utils"
-import { Toaster } from "@/components/ui/toaster"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
 
@@ -14,45 +15,38 @@ export const metadata: Metadata = {
     template: `%s - ${siteConfig.name}`,
   },
   description: siteConfig.description,
+  icons: {
+    icon: "/favicon.ico",
+  },
+}
+
+export const viewport: Viewport = {
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
-  },
 }
 
 interface RootLayoutProps {
-  children: React.ReactNode
+  children: ReactNode
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <>
-      <html lang="zh_cn" suppressHydrationWarning>
-        <head>
-          <script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7480220197813924"
-            crossOrigin="anonymous"
-          ></script>
-        </head>
-        <body
-          className={cn(
-            "min-h-screen bg-background font-sans antialiased",
-            fontSans.variable
-          )}
-        >
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            {children}
-            <TailwindIndicator />
-            <Toaster />
-          </ThemeProvider>
-        </body>
-      </html>
-    </>
+    <html lang="zh-CN" suppressHydrationWarning>
+      <body
+        className={`${fontSans.variable} min-h-screen bg-background font-sans antialiased`}
+      >
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7480220197813924"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          {children}
+          <TailwindIndicator />
+        </ThemeProvider>
+      </body>
+    </html>
   )
 }
