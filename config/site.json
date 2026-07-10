@@ -81,7 +81,7 @@
       "icon": "",
       "links": [
         {
-          "icon": "https://www.notion.so/icons/folder_purple.svg",
+          "icon": "https://www.notion.so/icons/key_lightgray.svg",
           "url": "https://blog.1874.cool/ai-filter-noise",
           "title": "用 AI 把社区噪音变成信号",
           "description": "使用 AI 将社区噪音通过 RSS 接入、分层筛选（噪声丢弃、话题聚合、价值排序），只推送精选的技术信号至飞书群，保留少量闲聊噪音概览，以降低信息噪声并提升注意力效率。"
