@@ -1,0 +1,49 @@
+name: Sync recent blog posts
+
+on:
+  schedule:
+    - cron: "17 8 * * *"
+      timezone: "Asia/Shanghai"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 8.15.9
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Sync recent posts
+        run: pnpm sync:blog-posts
+
+      - name: Generate post icons
+        run: pnpm generate:post-icons
+
+      - name: Commit and push changes
+        run: |
+          if git diff --quiet -- config/site.json; then
+            echo "No recent post changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add config/site.json
+          git commit -m "chore: sync recent blog posts"
+          git push origin "HEAD:${{ github.event.repository.default_branch }}"
