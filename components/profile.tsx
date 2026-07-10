@@ -5,7 +5,7 @@ import type { NavItems } from "@/app/links"
 
 export function Profile({ socials }: { socials: NavItems[] }) {
   return (
-    <div className="w-auto items-center px-8 py-12 max-[400px]:px-7 max-[360px]:px-5 lg:w-full lg:max-w-[500px] lg:px-0">
+    <div className="w-auto items-center px-8 py-12 max-[400px]:px-7 max-[360px]:px-5 lg:w-full lg:max-w-125 lg:px-0">
       <Image
         src="https://image.1874.cool/1874/202401271817867.png"
         alt="1874 的头像"

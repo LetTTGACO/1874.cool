@@ -6,7 +6,7 @@ import { CategoryWithLinks, NavItems } from "@/app/links"
 export function LinkItem({ link }: { link: NavItems }) {
   return (
     <Link href={link.url} target="_blank">
-      <div className="relative mb-6 flex min-h-[224px] min-w-0 cursor-pointer flex-col rounded-3xl border border-gray-200 p-4 break-words shadow-md transition-all hover:-translate-y-1 hover:scale-105 hover:bg-border hover:shadow-lg xl:mb-0">
+      <div className="relative mb-6 flex min-h-56 min-w-0 cursor-pointer flex-col rounded-3xl border border-gray-200 p-4 break-words shadow-md transition-all hover:-translate-y-1 hover:scale-105 hover:bg-border hover:shadow-lg xl:mb-0">
         <div className="flex items-center">
           <div className="mr-3 flex size-10 overflow-hidden rounded-full">
             {link.icon ? (
@@ -77,7 +77,7 @@ export function Content({
   posts: CategoryWithLinks[]
 }) {
   return (
-    <div className="px-8 py-6 max-[400px]:px-7 max-[360px]:px-5 lg:w-[820px] lg:px-0 lg:py-12">
+    <div className="px-8 py-6 max-[400px]:px-7 max-[360px]:px-5 lg:w-205 lg:px-0 lg:py-12">
       <div className="mx-auto w-full px-4 md:px-6">
         {links.map((category) => {
           return (

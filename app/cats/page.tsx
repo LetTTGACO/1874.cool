@@ -16,10 +16,10 @@ export const metadata: Metadata = {
 
 export default function CatsPage() {
   return (
-    <div className="relative mx-auto min-h-screen w-full max-w-[1600px] px-0">
+    <div className="relative mx-auto min-h-screen w-full max-w-400 px-0">
       <div className="flex-col">
-        <div className="lg:mx-auto lg:flex lg:max-w-[1600px] lg:justify-between lg:px-16">
-          <div className="w-auto items-center px-8 py-12 max-[400px]:px-7 max-[360px]:px-5 lg:w-full lg:max-w-[500px] lg:px-0">
+        <div className="lg:mx-auto lg:flex lg:max-w-400 lg:justify-between lg:px-16">
+          <div className="w-auto items-center px-8 py-12 max-[400px]:px-7 max-[360px]:px-5 lg:w-full lg:max-w-125 lg:px-0">
             <Link href="/" aria-label="返回首页" className="inline-block">
               <Image
                 src="https://image.1874.cool/1874/202401271817867.png"
@@ -36,7 +36,7 @@ export default function CatsPage() {
               觉得不错？可以给我家「77 & 奶茶」买 🥫 罐头吃！
             </p>
           </div>
-          <div className="px-8 py-6 max-[400px]:px-7 max-[360px]:px-5 lg:w-[820px] lg:px-0 lg:py-12">
+          <div className="px-8 py-6 max-[400px]:px-7 max-[360px]:px-5 lg:w-205 lg:px-0 lg:py-12">
             <div className="mx-auto w-full px-4 md:px-6">
               <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-6 lg:grid-cols-2">
                 <Image
@@ -57,7 +57,7 @@ export default function CatsPage() {
                 >
                   <Image src={WeChat} alt="微信支付二维码" className="p-6" />
                   <div
-                    className="h-[60px] text-center text-xl leading-[60px] font-bold"
+                    className="h-15 text-center text-xl leading-15 font-bold"
                     style={{ color: "white", backgroundColor: "#1fAB1A" }}
                   >
                     微信支付
@@ -69,7 +69,7 @@ export default function CatsPage() {
                 >
                   <Image src={AliPay} alt="支付宝二维码" className="p-6" />
                   <div
-                    className="h-[60px] text-center text-xl leading-[60px] font-bold"
+                    className="h-15 text-center text-xl leading-15 font-bold"
                     style={{ color: "white", backgroundColor: "#166DFF" }}
                   >
                     支付宝

@@ -10,9 +10,9 @@ export default function IndexPage() {
   const navResources = getNavLinks()
 
   return (
-    <div className="relative mx-auto min-h-screen w-full max-w-[1600px] px-0">
+    <div className="relative mx-auto min-h-screen w-full max-w-400 px-0">
       <div className="flex-col">
-        <div className="lg:mx-auto lg:flex lg:max-w-[1600px] lg:justify-between lg:px-16">
+        <div className="lg:mx-auto lg:flex lg:max-w-400 lg:justify-between lg:px-16">
           <Profile socials={navResources.socials} />
           <Content links={navResources.links} posts={navResources.posts} />
         </div>
