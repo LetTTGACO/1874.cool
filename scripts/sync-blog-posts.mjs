@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises"
 import { dirname, resolve } from "node:path"
 import { fileURLToPath } from "node:url"
+
 import { XMLParser, XMLValidator } from "fast-xml-parser"
 
 import { stringifyJson } from "./generate-post-icons.mjs"

@@ -4,10 +4,10 @@ import type { ReactNode } from "react"
 import type { Metadata, Viewport } from "next"
 import Script from "next/script"
 
-import { siteConfig } from "@/config/site"
-import { fontSans } from "@/lib/fonts"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
+import { siteConfig } from "@/config/site"
+import { fontSans } from "@/lib/fonts"
 
 export const metadata: Metadata = {
   title: {

@@ -2,8 +2,8 @@ import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 
-import { siteConfig } from "@/config/site"
 import { friends } from "@/config/friends"
+import { siteConfig } from "@/config/site"
 import Cat77 from "@/public/77.jpg"
 import AliPay from "@/public/alipay.jpg"
 import WeChat from "@/public/wechat.jpg"
@@ -26,13 +26,13 @@ export default function CatsPage() {
                 alt="1874 的头像"
                 width={160}
                 height={160}
-                className="h-48 w-48 rounded-full max-[400px]:h-32 max-[400px]:w-32 max-[360px]:h-28 max-[360px]:w-28"
+                className="size-48 rounded-full max-[400px]:size-32 max-[360px]:size-28"
               />
             </Link>
-            <h1 className="mt-8 break-words text-3xl font-semibold text-slate-950 dark:text-slate-50 lg:text-5xl">
+            <h1 className="mt-8 text-3xl font-semibold break-words text-slate-950 lg:text-5xl dark:text-slate-50">
               1874
             </h1>
-            <p className="mt-6 whitespace-pre-line text-xl font-bold text-slate-600 dark:text-gray-50 max-[400px]:mt-5 max-[360px]:mt-4">
+            <p className="mt-6 text-xl font-bold whitespace-pre-line text-slate-600 max-[400px]:mt-5 max-[360px]:mt-4 dark:text-gray-50">
               觉得不错？可以给我家「77 & 奶茶」买 🥫 罐头吃！
             </p>
           </div>
@@ -57,7 +57,7 @@ export default function CatsPage() {
                 >
                   <Image src={WeChat} alt="微信支付二维码" className="p-6" />
                   <div
-                    className="h-[60px] text-center text-xl font-bold leading-[60px]"
+                    className="h-[60px] text-center text-xl leading-[60px] font-bold"
                     style={{ color: "white", backgroundColor: "#1fAB1A" }}
                   >
                     微信支付
@@ -69,7 +69,7 @@ export default function CatsPage() {
                 >
                   <Image src={AliPay} alt="支付宝二维码" className="p-6" />
                   <div
-                    className="h-[60px] text-center text-xl font-bold leading-[60px]"
+                    className="h-[60px] text-center text-xl leading-[60px] font-bold"
                     style={{ color: "white", backgroundColor: "#166DFF" }}
                   >
                     支付宝
@@ -81,7 +81,7 @@ export default function CatsPage() {
         </div>
       </div>
       <div className="mx-auto my-10 w-full">
-        <h1 className="mt-2 w-full px-4 text-center text-5xl font-bold leading-tight text-gray-700 lg:text-6xl">
+        <h1 className="mt-2 w-full px-4 text-center text-5xl leading-tight font-bold text-gray-700 lg:text-6xl">
           喂猫的朋友们
         </h1>
         <div className="mx-auto mt-8 w-full px-4 text-center text-xl sm:px-12 lg:w-4/5">

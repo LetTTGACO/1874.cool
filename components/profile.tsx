@@ -11,12 +11,12 @@ export function Profile({ socials }: { socials: NavItems[] }) {
         alt="1874 的头像"
         width={160}
         height={160}
-        className="h-48 w-48 rounded-full max-[400px]:h-32 max-[400px]:w-32 max-[360px]:h-28 max-[360px]:w-28"
+        className="size-48 rounded-full max-[400px]:size-32 max-[360px]:size-28"
       />
-      <h1 className="mt-8 break-words text-3xl font-semibold text-slate-950 dark:text-slate-50 lg:text-5xl">
+      <h1 className="mt-8 text-3xl font-semibold break-words text-slate-950 lg:text-5xl dark:text-slate-50">
         1874
       </h1>
-      <p className="mt-6 whitespace-pre-line text-xl text-slate-600 dark:text-gray-50 max-[400px]:mt-5 max-[360px]:mt-4">
+      <p className="mt-6 text-xl whitespace-pre-line text-slate-600 max-[400px]:mt-5 max-[360px]:mt-4 dark:text-gray-50">
         有粤语歌就不会有世界末日
       </p>
       <div className="mt-6 flex">
@@ -28,13 +28,13 @@ export function Profile({ socials }: { socials: NavItems[] }) {
             aria-label={social.title}
             key={social.url}
           >
-            <div className="mr-2 h-10 w-10 rounded-full leading-10">
+            <div className="mr-2 size-10 rounded-full leading-10">
               <Image
                 src={social.icon}
                 alt=""
                 width={24}
                 height={24}
-                className="h-6 w-6 rounded-full leading-10"
+                className="size-6 rounded-full leading-10"
               />
             </div>
           </Link>

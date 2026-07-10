@@ -6,9 +6,9 @@ import { CategoryWithLinks, NavItems } from "@/app/links"
 export function LinkItem({ link }: { link: NavItems }) {
   return (
     <Link href={link.url} target="_blank">
-      <div className="relative mb-6 flex min-h-[224px] min-w-0 cursor-pointer flex-col break-words rounded-3xl border border-gray-200 p-4 shadow-md transition-all hover:-translate-y-1 hover:scale-105 hover:bg-border hover:shadow-lg xl:mb-0">
+      <div className="relative mb-6 flex min-h-[224px] min-w-0 cursor-pointer flex-col rounded-3xl border border-gray-200 p-4 break-words shadow-md transition-all hover:-translate-y-1 hover:scale-105 hover:bg-border hover:shadow-lg xl:mb-0">
         <div className="flex items-center">
-          <div className="mr-3 flex h-10 w-10 overflow-hidden rounded-full">
+          <div className="mr-3 flex size-10 overflow-hidden rounded-full">
             {link.icon ? (
               <Image
                 src={link.icon}
@@ -18,7 +18,7 @@ export function LinkItem({ link }: { link: NavItems }) {
                 height={40}
               />
             ) : (
-              <span className="h-full w-full rounded-full border text-center font-bold leading-10">
+              <span className="size-full rounded-full border text-center leading-10 font-bold">
                 {link.title.slice(0, 1)}
               </span>
             )}
@@ -39,9 +39,9 @@ export function LinkItem({ link }: { link: NavItems }) {
 export function PostItem({ link }: { link: NavItems }) {
   return (
     <Link href={link.url} target="_blank">
-      <div className="relative mb-6 flex min-h-[190px] min-w-0 cursor-pointer flex-col break-words rounded-3xl border border-gray-200 p-4 shadow-md transition-all hover:-translate-y-1 hover:scale-105 hover:bg-border hover:shadow-lg xl:mb-0">
+      <div className="relative mb-6 flex min-h-[190px] min-w-0 cursor-pointer flex-col rounded-3xl border border-gray-200 p-4 break-words shadow-md transition-all hover:-translate-y-1 hover:scale-105 hover:bg-border hover:shadow-lg xl:mb-0">
         <div className="flex items-center">
-          <div className="mr-3 flex h-10 w-10 overflow-hidden rounded-full">
+          <div className="mr-3 flex size-10 overflow-hidden rounded-full">
             {link.icon ? (
               <Image
                 src={link.icon}
@@ -51,7 +51,7 @@ export function PostItem({ link }: { link: NavItems }) {
                 height={40}
               />
             ) : (
-              <span className="h-full w-full rounded-full border text-center font-bold leading-10">
+              <span className="size-full rounded-full border text-center leading-10 font-bold">
                 {link.title.slice(0, 1)}
               </span>
             )}
