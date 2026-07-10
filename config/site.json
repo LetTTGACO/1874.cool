@@ -81,37 +81,37 @@
       "icon": "",
       "links": [
         {
-          "icon": "https://www.notion.so/icons/music_red.svg",
+          "icon": "https://www.notion.so/icons/moon_red.svg",
           "url": "https://blog.1874.cool/ai-filter-noise/",
           "title": "用 AI 把社区噪音变成信号",
           "description": "使用 AI 将社区噪音通过 RSS 接入、分层筛选（噪声丢弃、话题聚合、价值排序），只推送精选的技术信号至飞书群，保留少量闲聊噪音概览，以降低信息噪声并提升注意力效率。"
         },
         {
-          "icon": "https://www.notion.so/icons/notification_lightgray.svg",
+          "icon": "https://www.notion.so/icons/airplane_lightgray.svg",
           "url": "https://blog.1874.cool/codex-superpowers/",
           "title": "从额度焦虑到精准控流：我的 Codex 降本增效策略",
           "description": "通过抑制 Superpowers 的自动触发、改造其子代理模型选择并结合 mattpocock/skills 的手动调用，实现了在 Codex 环境下更精细的模型分配和任务调度，从而显著降低 Token 消耗并提升开发效率。"
         },
         {
-          "icon": "https://www.notion.so/icons/home_green.svg",
+          "icon": "https://www.notion.so/icons/potted-plant_green.svg",
           "url": "https://blog.1874.cool/stable-vibe-coding-workflow/",
           "title": "告别许愿式开发：如何用确定性的工作流对抗 AI “降智”",
           "description": "通过确定性的工作流和稳固的规则文档，可在多轮对话中为 AI 提供足够上下文，避免模型“降智”导致的跑偏。核心做法包括使用低成本模型配合详细流程、将喜好和项目规则沉淀为本地文档、在对话结束时让 AI 总结需求描述，以及合理管理中间文档存放位置，从而提升 AI 的可靠性和效率。"
         },
         {
-          "icon": "https://www.notion.so/icons/airplane_brown.svg",
+          "icon": "https://www.notion.so/icons/server_brown.svg",
           "url": "https://blog.1874.cool/vibe-coding-mid-doc/",
           "title": "既要 Vibe 还要无痕：我的本地私有文档收留方案",
           "description": "提供本地私有文档管理方案，包括使用 .git/info/exclude 或全局 Git ignore 忽略本地文件、将私有 runbook 放入 .local/runbooks/、在被主仓库忽略的目录中创建独立 Git 仓库以实现本地版本化，以及相应的配置步骤和注意事项。"
         },
         {
-          "icon": "https://www.notion.so/icons/heart_brown.svg",
+          "icon": "https://www.notion.so/icons/puzzle_brown.svg",
           "url": "https://blog.1874.cool/hermes-update-fork/",
           "title": "无需打散件补丁：用 fork 接管 Hermes 更新",
           "description": "通过将 Hermes 的 origin remote 指向个人 fork，并创建 .skip_upstream_prompt 静音文件，可让 hermes update 从 fork 拉取代码，实现安全的更新与补丁开发流程；同时可自行设置 upstream 同步官方仓库，保持 fork 与上游代码同步，简化开发、合并和部署步骤。"
         },
         {
-          "icon": "https://www.notion.so/icons/fire_blue.svg",
+          "icon": "https://www.notion.so/icons/home_blue.svg",
           "url": "https://blog.1874.cool/raycast-ai-custom/",
           "title": "Raycast AI 接入自定义 Providers",
           "description": "通过在 Raycast 设置中启用 Custom Providers 并编辑 providers.yaml，可将火山方舟、Doubao、DeepSeek 等模型接入 Raycast AI，支持温度、系统消息、工具调用和视觉输入等能力。配置后可为 Quick AI 和自定义翻译等功能指定首选模型，实现系统级实时翻译并通过快捷键快速调用，提升工作流效率。"
