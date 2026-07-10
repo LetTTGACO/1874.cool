@@ -8,7 +8,7 @@ export function LinkItem({ link }: { link: NavItems }) {
     <Link href={link.url} target="_blank">
       <div className="relative mb-6 flex min-h-56 min-w-0 cursor-pointer flex-col rounded-3xl border border-gray-200 p-4 break-words shadow-md transition-all hover:-translate-y-1 hover:scale-105 hover:bg-border hover:shadow-lg xl:mb-0">
         <div className="flex items-center">
-          <div className="mr-3 flex size-10 overflow-hidden rounded-full">
+          <div className="mr-3 flex size-10 shrink-0 overflow-hidden rounded-full">
             {link.icon ? (
               <Image
                 src={link.icon}
@@ -41,7 +41,7 @@ export function PostItem({ link }: { link: NavItems }) {
     <Link href={link.url} target="_blank">
       <div className="relative mb-6 flex min-h-[190px] min-w-0 cursor-pointer flex-col rounded-3xl border border-gray-200 p-4 break-words shadow-md transition-all hover:-translate-y-1 hover:scale-105 hover:bg-border hover:shadow-lg xl:mb-0">
         <div className="flex items-center">
-          <div className="mr-3 flex size-10 overflow-hidden rounded-full">
+          <div className="mr-3 flex size-10 shrink-0 overflow-hidden rounded-full">
             {link.icon ? (
               <Image
                 src={link.icon}
