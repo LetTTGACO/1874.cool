@@ -58,7 +58,7 @@ export function PostItem({ link }: { link: NavItems }) {
           </div>
           <span className="text-xl font-bold text-primary">{link.title}</span>
         </div>
-        <div className="mt-2 line-clamp-3 text-sm text-primary">
+        <div className="mt-2 line-clamp-4 text-sm text-primary">
           {link.description}
         </div>
         <div className="absolute bottom-6 line-clamp-1 text-xs text-slate-500 dark:text-slate-400">
