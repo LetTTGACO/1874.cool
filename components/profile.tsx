@@ -1,17 +1,14 @@
-"use client"
-
-import * as React from "react"
 import Image from "next/image"
 import Link from "next/link"
 
-import { NavItems } from "@/app/links"
+import type { NavItems } from "@/app/links"
 
 export function Profile({ socials }: { socials: NavItems[] }) {
   return (
-    <div className=" w-auto items-center px-8 py-12 max-[400px]:px-7 max-[360px]:px-5 lg:w-full lg:max-w-[500px] lg:px-0">
+    <div className="w-auto items-center px-8 py-12 max-[400px]:px-7 max-[360px]:px-5 lg:w-full lg:max-w-[500px] lg:px-0">
       <Image
         src="https://image.1874.cool/1874/202401271817867.png"
-        alt=""
+        alt="1874 的头像"
         width={160}
         height={160}
         className="h-48 w-48 rounded-full max-[400px]:h-32 max-[400px]:w-32 max-[360px]:h-28 max-[360px]:w-28"
@@ -23,21 +20,25 @@ export function Profile({ socials }: { socials: NavItems[] }) {
         有粤语歌就不会有世界末日
       </p>
       <div className="mt-6 flex">
-        {socials.map((social, index) => {
-          return (
-            <Link href={social.url} target="_blank" key={index}>
-              <div className="mr-2 h-10 w-10 rounded-full leading-10">
-                <Image
-                  src={social.icon}
-                  alt=""
-                  width={24}
-                  height={24}
-                  className="h-6 w-6 rounded-full fill-amber-300 leading-10"
-                />
-              </div>
-            </Link>
-          )
-        })}
+        {socials.map((social) => (
+          <Link
+            href={social.url}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={social.title}
+            key={social.url}
+          >
+            <div className="mr-2 h-10 w-10 rounded-full leading-10">
+              <Image
+                src={social.icon}
+                alt=""
+                width={24}
+                height={24}
+                className="h-6 w-6 rounded-full leading-10"
+              />
+            </div>
+          </Link>
+        ))}
       </div>
     </div>
   )
