@@ -1,6 +1,7 @@
 name: Sync recent blog posts
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "17 8 * * *"
       timezone: "Asia/Shanghai"
