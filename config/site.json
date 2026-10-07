@@ -31,12 +31,6 @@
       "icon": "https://cos.codefe.top/images/ui-ux-icon.png",
       "links": [
         {
-          "icon": "https://image.1874.cool/1874/202503231217568.JPG",
-          "url": "https://memo.1874.run",
-          "title": "Memo",
-          "description": "Cody的百宝箱，是我的备忘录站点。不同于独立博客，它更像是我的 Flomo 网页版，主要是日常记录&技术分享"
-        },
-        {
           "icon": "https://image.1874.cool/1874/202402031641868.png",
           "url": "https://blog.1874.cool",
           "title": "Blog",
