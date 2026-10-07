@@ -75,6 +75,12 @@
       "icon": "",
       "links": [
         {
+          "icon": "https://www.notion.so/icons/chat_blue.svg",
+          "url": "https://blog.1874.cool/personalos-dashboard-plugin/",
+          "title": "打造 Codex 超级 APP：基于 OpenAI MCP Extensions 的每日看板插件",
+          "description": "基于 OpenAI 插件扩展，作者在 Codex 中实现了一个个人知识库看板插件，将 Obsidian 的 Markdown 文档作为唯一数据源，实现笔记读取、汇总展示、对话交互和自动归档的闭环流程，支持全局侧边栏和聊天侧边栏使用，尽管存在插件启动聊天确认、无法直接发起新聊天和缺少 Agent 自动化等限制，但已完成可用版本并持续优化。"
+        },
+        {
           "icon": "https://www.notion.so/icons/moon_red.svg",
           "url": "https://blog.1874.cool/ai-filter-noise/",
           "title": "用 AI 把社区噪音变成信号",
@@ -103,12 +109,6 @@
           "url": "https://blog.1874.cool/raycast-ai-custom/",
           "title": "Raycast AI 接入自定义 Providers",
           "description": "通过在 Raycast 设置中启用 Custom Providers 并编辑 providers.yaml，可将火山方舟、Doubao、DeepSeek 等模型接入 Raycast AI，支持温度、系统消息、工具调用和视觉输入等能力。配置后可为 Quick AI 和自定义翻译等功能指定首选模型，实现系统级实时翻译并通过快捷键快速调用，提升工作流效率。"
-        },
-        {
-          "icon": "https://www.notion.so/icons/document_green.svg",
-          "url": "https://blog.1874.cool/codex-workflow/",
-          "title": "从对话到沉淀：我的 Codex 工作流实践",
-          "description": "从对话到沉淀的工作流通过自定义 Skill 将 Codex 对话中的问题、想法和行动自动分类并记录到 Flomo、TickTick、Notion 等工具，实现即时捕获 TODO、跨项目洞察和项目分析，并通过图像生成、R2 上传等步骤完成博客配图与更新，形成一套高效的信息沉淀与任务管理体系。"
         }
       ]
     }
