@@ -49,6 +49,12 @@
           "description": "专门针对飞书消息渠道展示优化后的 Hermes Agent"
         },
         {
+          "icon": "https://image.1874.run/codex/21ae6905b42764917d3b300f1092a0a6.png",
+          "url": "https://github.com/LetTTGACO/FrameNote",
+          "title": "FrameNote",
+          "description": "将 B站、抖音、YouTube 或本地视频整理成可阅读、可追溯的章节笔记"
+        },
+        {
           "icon": "https://image.1874.run/codex/06a9d9ad3a2c73664e8026c35900325f.png",
           "url": "https://github.com/LetTTGACO/agent-notify",
           "title": "Agent-Notify",
